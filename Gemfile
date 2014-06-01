@@ -31,6 +31,9 @@ gem 'bootstrap-sass'
 # Unicorn - better than Web Brick
 gem 'unicorn'
 
+# Devise
+gem 'devise'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
