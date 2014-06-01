@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -26,6 +27,9 @@ gem 'jbuilder', '~> 1.2'
 
 # Bootstrap
 gem 'bootstrap-sass'
+
+# Unicorn - better than Web Brick
+gem 'unicorn'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
