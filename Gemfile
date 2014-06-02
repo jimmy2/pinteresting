@@ -37,6 +37,9 @@ gem 'devise'
 # Paperclip for image upload
 gem 'paperclip', '~> 4.1.1'
 
+# Amazon s3 for image storage
+gem 'aws-sdk'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
