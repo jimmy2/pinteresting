@@ -21,6 +21,7 @@ gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -39,6 +40,9 @@ gem 'paperclip', '~> 4.1.1'
 
 # Amazon s3 for image storage
 gem 'aws-sdk'
+
+# JQuery Masonry
+gem 'masonry-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
